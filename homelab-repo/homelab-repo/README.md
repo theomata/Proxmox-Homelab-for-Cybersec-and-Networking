@@ -164,7 +164,3 @@ This is not a cheat sheet. It is an engineering journal.
 - [ ] CompTIA Security+
 - [ ] eJPT (eLearnSecurity Junior Penetration Tester)
 - [ ] OSCP (long-term goal)
-
----
-
-*Self-directed learning. Built in the Philippines. One lab session at a time.*
