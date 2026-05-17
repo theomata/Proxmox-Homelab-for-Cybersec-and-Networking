@@ -87,7 +87,7 @@ homelab-repo/
 
 | Day | Date | Focus | Status |
 |-----|------|-------|--------|
-| Day 1 | 2025 | Proxmox install · Linux networking · First VM · SSH · Foundational tools | ✅ Complete |
+| Day 1 | 2026 | Proxmox install · Linux networking · First VM · SSH · Foundational tools | ✅ Complete |
 | Day 2 | — | pfSense · VLAN segmentation · Firewall rules | 🔜 Planned |
 | Day 3 | — | Kali Linux VM · nmap scanning · tcpdump analysis | 🔜 Planned |
 | Day 4 | — | Metasploitable 2 · Vulnerability assessment | 🔜 Planned |
