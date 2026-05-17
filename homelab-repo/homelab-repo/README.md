@@ -80,21 +80,6 @@ homelab-repo/
 ├── assets/                          ← Diagrams, screenshots
 └── templates/                       ← Reusable markdown templates
 ```
-
----
-
-## 📅 Progress Log
-
-| Day | Date | Focus | Status |
-|-----|------|-------|--------|
-| Day 1 | 2026 | Proxmox install · Linux networking · First VM · SSH · Foundational tools | ✅ Complete |
-| Day 2 | — | pfSense · VLAN segmentation · Firewall rules | 🔜 Planned |
-| Day 3 | — | Kali Linux VM · nmap scanning · tcpdump analysis | 🔜 Planned |
-| Day 4 | — | Metasploitable 2 · Vulnerability assessment | 🔜 Planned |
-| Day 5 | — | Wazuh/Splunk SIEM · Log ingestion · Alerting | 🔜 Planned |
-| Day 6 | — | Windows Server · Active Directory · Domain setup | 🔜 Planned |
-| Day 7 | — | Attack-and-defense lab · Full scenario | 🔜 Planned |
-
 ---
 
 ## 🗺️ Roadmap
