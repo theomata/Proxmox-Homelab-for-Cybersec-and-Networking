@@ -1,0 +1,129 @@
+Perfect. That’s the right format for your GitHub homelab.
+
+I’ll build it as a **real annotated lab manual / engineering log**, not generic notes.
+
+The `day-02.md` will include:
+
+### Structure
+
+* Deep theory
+* Definitions
+* Real Linux mental models
+* Commands
+* Actual sample outputs
+* Line-by-line breakdowns
+* Security implications
+* Admin reasoning
+* Attacker perspective
+* Troubleshooting
+* Mini labs
+* Day 2 summary
+* Day 3 transition
+
+### Real command output examples included
+
+Like:
+
+`whoami`
+
+```bash
+theo
+```
+
+`id`
+
+```bash
+uid=1000(theo) gid=1000(theo) groups=1000(theo),27(sudo),4(adm)
+```
+
+`ls -l`
+
+```bash
+-rw-r--r-- 1 theo theo 1240 May 21 notes.txt
+drwxr-xr-x 2 theo theo 4096 May 21 lab/
+```
+
+`ps aux | head`
+
+```bash
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.3 167432 12084 ?        Ss   09:00   0:01 /sbin/init
+root       612  0.0  0.2  15444  9200 ?        Ss   09:00   0:00 sshd
+syslog     732  0.0  0.1 224000  6120 ?        Ssl  09:00   0:00 rsyslogd
+theo      1842  0.0  0.2  11256  8200 pts/0    Ss   09:15   0:00 bash
+```
+
+`ss -tulnp`
+
+```bash
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:Port Process
+tcp   LISTEN 0      128      0.0.0.0:22       0.0.0.0:*     users:(("sshd",pid=612,fd=3))
+udp   UNCONN 0      0      127.0.0.53:53      0.0.0.0:*     users:(("systemd-resolved",pid=540,fd=13))
+```
+
+Then I’ll annotate:
+
+* what each column means
+* why admins care
+* what attackers enumerate
+* how defenders investigate
+
+### Deep topics
+
+* Linux identity model
+* users / service accounts
+* UID / GID
+* root / least privilege
+* `/etc/passwd`
+* `/etc/shadow`
+* `/etc/group`
+* `/etc/sudoers`
+* permissions (`rwx`)
+* octal (`755`, `644`, `600`, etc.)
+* `chmod`
+* `chown`
+* `chgrp`
+* `umask`
+* sticky bit
+* setuid / setgid
+* `sudo` flow
+* PAM intro
+* process ownership
+* daemons
+* PIDs / PPIDs
+* process trees
+* open ports
+* attack surface
+* troubleshooting mindset
+
+### Homelab tie-in
+
+Connected directly to your stack:
+
+* Proxmox
+* Ubuntu Server
+* Kali
+* Metasploitable
+* Splunk
+* Wazuh
+* Windows Server
+* AD
+* pfSense
+* SOC labs
+
+### Labs
+
+Hands-on:
+
+* create users
+* inspect groups
+* break permissions
+* fix ownership
+* test sudo
+* inspect services
+* identify exposed ports
+* analyze process ownership
+
+---
+
+I’m generating the **full raw `day-02.md` next** — long-form, copy-paste ready for your repo. It’ll be substantial, so I’ll send it in parts to keep it clean.
